@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "sms",
+      "type": "potato.dumplings.sms.config.SmsConfig",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sms.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "sms.type",
+      "type": "potato.dumplings.sms.config.properties.SmsProperties.SmsTypeEnum",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    },
+    {
+      "name": "sms.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    },
+    {
+      "name": "sms.accessKeyId",
+      "type": "java.lang.String",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    },
+    {
+      "name": "sms.accessKeySecret",
+      "type": "java.lang.String",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    },
+    {
+      "name": "sms.signName",
+      "type": "java.lang.String",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    },
+    {
+      "name": "sms.sdkAppId",
+      "type": "java.lang.String",
+      "sourceType": "potato.dumplings.sms.config.properties.SmsProperties"
+    }
+  ]
+}

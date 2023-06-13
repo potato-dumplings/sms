@@ -1,0 +1,40 @@
+{
+  "properties": [
+    {
+      "name": "sms.enable",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "是否启用sms."
+    },
+    {
+      "name": "sms.type",
+      "type": "java.lang.String",
+      "description": "类型。不配置会调用接口判断."
+    },
+    {
+      "name": "sms.endpoint",
+      "type": "java.lang.String",
+      "description": "."
+    },
+    {
+      "name": "sms.accessKeyId",
+      "type": "java.lang.String",
+      "description": "."
+    },
+    {
+      "name": "sms.accessKeySecret",
+      "type": "java.lang.String",
+      "description": "."
+    },
+    {
+      "name": "sms.signName",
+      "type": "java.lang.String",
+      "description": "."
+    },
+    {
+      "name": "sms.sdkAppId",
+      "type": "java.lang.String",
+      "description": "."
+    }
+  ]
+}
