@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>potato.dumplings</groupId>
+    <groupId>com.github.potato-dumplings</groupId>
     <artifactId>sms</artifactId>
     <version>1.0.0</version>
 
     <name>sms</name>
     <url>https://github.com/potato-dumplings/sms</url>
-    <description>SMS短信模块</description>
+    <description>SMS短信</description>
     <packaging>jar</packaging>
 
     <properties>
